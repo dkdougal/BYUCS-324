@@ -23,7 +23,7 @@ int main() {
 
     while (fgets(buffer, MAX_LINE, stdin)) {
         // Simulate processing input
-        fprintf(stdout, "Read line: %s", buffer);
+        fprintf(stdout, "Read line: %s\n", buffer);
     }
 
     fprintf(stderr, "End of input stream reached.\n");
