@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX_LINE 256
+#define MAX_LINE 64
 
 // Use fprintf to print output to different streams
 // How do each of the following behave?
