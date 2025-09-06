@@ -11,10 +11,10 @@
 // ./redirect_input < input.txt
 
 // Suppress stdout, show only stderr
-// ./redirect_input < input.txt
+// ./redirect_input < input.txt > /dev/null
 
 // Redirect both stdout and stderr to a file
-// ./redirect_input < input.txt > /dev/null
+// ./redirect_input < input.txt &> output.txt
 
 int main() {
     char buffer[MAX_LINE];
